@@ -1,7 +1,8 @@
+// variable declaration
 int trigPin = 9;
 int echoPin = 10;
 int out = 5;
-// defines variables
+int flag=true;
 long duration;
 int distance;
 void setup() {
@@ -26,11 +27,19 @@ void loop() {
   // Prints the distance on the Serial Monitor
   Serial.print("Distance: ");
   Serial.println(distance);
-  if(distance<10)
+  if((distance<10) && (flag == true))
   {
+    Serial.println("Tea on");
     digitalWrite(out, HIGH);
+    delay(5000);
+    Serial.println("Tea off");
+    digitalWrite(out, LOW);
+    flag = false;
   }
- else{
+ else if((distance>10) && (flag == false))
+ {
+  Serial.println("Tea reset");
   digitalWrite(out, LOW);
+  flag = true;
  }
 }
