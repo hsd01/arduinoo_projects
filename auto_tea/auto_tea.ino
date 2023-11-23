@@ -31,15 +31,16 @@ void loop() {
   {
     Serial.println("Tea on");
     digitalWrite(out, HIGH);
-    delay(5000);
+    delay(3000);
     Serial.println("Tea off");
     digitalWrite(out, LOW);
     flag = false;
   }
- else if((distance>10) && (flag == false))
+ else if((distance>15) && (flag == false))
  {
   Serial.println("Tea reset");
   digitalWrite(out, LOW);
   flag = true;
  }
+ digitalWrite(out, LOW);
 }

@@ -9,8 +9,12 @@ void setup() {
 
 void loop() {
 soil_moisture_value = analogRead(A0);
+Serial.println(soil_moisture_value);
+delay(500);
+//percentage = map(soil_moisture_value, 490, 1023, 100, 0);
+
+Serial.println();
 Serial.println(percentage);
-percentage = map(soil_moisture_value, 490, 1023, 100, 0);
 if(percentage < 10)  
 {
   Serial.println(" pump on");
