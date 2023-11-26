@@ -9,7 +9,7 @@ print(voices)
 # en.setProperty('voice', voices[1].id)
 for i in voices:
     en.setProperty('voice', i.id)
-    en.say("hello my name is Hemant, what is your name")
+    en.say("hello my name is , what is your name")
     en.runAndWait()
 # en.save_to_file('Hello, world!', 'output.mp3')
 # en.runAndWait()

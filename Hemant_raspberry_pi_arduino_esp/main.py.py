@@ -44,7 +44,8 @@ def greet():
     else:
         en.say(hello[rand]+"its already bead time good night")
         en.runAndWait()
-
+en.say("Hello My name is Zenny")
+en.runAndWait()
 client_soc, address = server_soc.accept()
 greet()
 print("Accepted connection from {} ".format(address))
@@ -88,6 +89,6 @@ def main():
             bus.write_byte(i2c_address,5)
         if dis <=10 :
             print("stop")
-             bus.write_byte(i2c_address,5)
+            bus.write_byte(i2c_address,5)
     client_soc.close()
     server_soc.close()
