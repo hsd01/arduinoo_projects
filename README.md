@@ -38,3 +38,12 @@ the distance from the sensor to the object is 34cm.
 # temperature based fan speed controll
 # garbage monitoring smart dustbin
 # bridge leveling
+
+# Hemant_raspberry_pi_arduino_esp
+this folder is dedicated for raspberry pi project.
+  # materials
+  *raspberrypi 3 b+*
+  *arduino*
+  *sensors such as heartbeat, ultrasonoic*
+  raspberry pi software : raspbian os, mosquitto broker, python3, python modules( smbus, pyttsx3, pygame)
+  arduino used as I2C slave for motor controll and distance measurement
