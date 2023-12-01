@@ -6,11 +6,11 @@ void setup() {
 }
 
 void loop() {
-  int time_del = analogRead(A0);
-  Serial.print("start>>");
-  Serial.println(analogRead(A0));
-  int time_val = map(time_del, 0, 1023, 1, 60);
-  int actual_time = time_val*1000;
+  //int time_del = analogRead(A0);
+  //Serial.print("start>>");
+  //Serial.println(analogRead(A0));
+  //int time_val = map(time_del, 0, 1023, 1, 60);
+  int actual_time = 2000;//time_val*1000;
   Serial.println("time:"+actual_time);
   digitalWrite(motor, HIGH);
   delay(actual_time);
