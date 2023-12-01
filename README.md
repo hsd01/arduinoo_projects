@@ -1,4 +1,4 @@
-# arduinoo_projects
+﻿# arduinoo_projects
 
 # How the HC-SR04 Ultrasonic Distance Sensor Works?
 It emits an ultrasound at 40 000 Hz which travels through the air and if there is an object
@@ -26,3 +26,7 @@ of sound value from 340m/s to 34cm/ms.
 Distance = (Speed x Time) / 2 = (34cm/ms x 1.5ms) / 2 = 25.5cm.
 So, if the Echo pin was HIGH for 2ms (which we measure using the pulseIn() function), 
 the distance from the sensor to the object is 34cm.
+
+# auto tea 
+
+
