@@ -27,6 +27,14 @@ Distance = (Speed x Time) / 2 = (34cm/ms x 1.5ms) / 2 = 25.5cm.
 So, if the Echo pin was HIGH for 2ms (which we measure using the pulseIn() function), 
 the distance from the sensor to the object is 34cm.
 
-# auto tea 
+# overall projects schema
+![image](https://github.com/hsd01/arduinoo_projects/assets/36105117/d13f11f1-5246-4b16-bd1d-48049687e1e2)
 
-
+# audo tea dispenser 
+# soil moisture sensor and irrigation
+# drip system
+# fire detector and alarming
+# contactless door bell
+# temperature based fan speed controll
+# garbage monitoring smart dustbin
+# bridge leveling
