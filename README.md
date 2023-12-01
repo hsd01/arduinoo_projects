@@ -41,9 +41,11 @@ the distance from the sensor to the object is 34cm.
 
 # Hemant_raspberry_pi_arduino_esp
 this folder is dedicated for raspberry pi project.
-  # materials
+  *materials*
   *raspberrypi 3 b+*
   *arduino*
   *sensors such as heartbeat, ultrasonoic*
-  raspberry pi software : raspbian os, mosquitto broker, python3, python modules( smbus, pyttsx3, pygame)
-  arduino used as I2C slave for motor controll and distance measurement
+  raspberry pi software : raspbian os, mosquitto broker, python3, python modules( smbus, pyttsx3, pygame, bluetooth)
+  arduino used as I2C slave for motor controll and distance measurement.
+  android cellphone app Pi3 Bluetooth this app connect to robo and instruction is given to it bot named znny first great and starts.
+  
